@@ -1,0 +1,83 @@
+body {
+    position: relative;
+}
+#section1 {padding-top:50px;height:1200px; background-color: #75DDDD;}
+#section2 {padding-top:50px;height:700px; background-color: #e7ecef;}
+#section3 {padding-top:50px;height:400px; background-color: #e7ecef;}
+#section4 {padding-top:50px;height:500px; background-color: #75DDDD;}
+#section5 {padding-top:50px;height:1000px; background-color: #848FA5;}
+#section6 {padding-top:50px;height:400px;color: #000000; background-color: #e7ecef;}
+#section7 {padding-top:50px;height:700px; background-color: #AFAFDC;}
+
+
+.main{
+position:absolute;
+top: 8%;
+left: 50%;
+transform: translate(-50%,50%);
+color: white;
+font-family: "Monaco";
+border-top-style: solid;
+border-bottom-style: solid;
+  border-color: white;
+  font-size: 60pt;
+
+}
+.about{
+
+color: black;
+font-family: "Monaco";
+}
+.aboutimg{
+display: block;
+  margin: auto;
+  width: 20%;
+}
+.aboutbody{
+ color:black;
+font-family: "Monaco";
+text-align: center;
+padding-left:20%;
+padding-right: 20%;
+line-height: 1.7;
+
+}
+.education{
+  color:black;
+  font-family: "Monaco";
+
+}
+.computer{
+  color:black;
+  font-family: "Monaco";
+
+}
+.progress
+{
+  margin: 20px;
+  width:80%;
+transform: translate(10%,50%);
+
+}
+.work{
+  color: black;
+font-family: "Monaco";
+ margin: 20px;
+
+}
+.work2{
+color: black;
+font-family: "Monaco";
+ margin: 30px;
+
+}
+.organ{
+   color: black;
+font-family: "Monaco";
+
+}
+.project{
+  color: black;
+font-family: "Monaco";
+
+}
