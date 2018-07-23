@@ -8,7 +8,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="style.css" rel="stylesheet">
-
+  <script src="page.js" type="javascript"></script>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Andada' rel='stylesheet'>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- <ul class="list-inline">
@@ -23,11 +25,11 @@ makes everything one line-->
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
       	</button>
-      <a class="navbar-brand" href="#">Rachael Kondrat</a>
+      <a class="navbar-brand change" href="#">Rachael Kondrat</a>
     </div>
     <div>
      <div class="collapse navbar-collapse" id="myNavbar">
-     	<ul class="nav navbar-nav">
+     	<ul class="nav navbar-nav change">
     		<li><a href="#section1">About Me</a></li>
          	<li><a href="#section2">Education</a></li>
          	<li><a href="#section7">Computer Languages</a></li>
@@ -42,11 +44,11 @@ makes everything one line-->
   	</div>
 </nav>
 
-   <h1 class="main text-center" >Rachael Kondrat</h1>
+   <h1 class="main text-center change" > <b>Rachael Kondrat</b></h1>
 
    <div class="jumbotron">
     <img src="trees.jpg" alt="trees" style="width: 100%" height="900">
-   <div>
+  </div>
 
 
 
@@ -60,7 +62,7 @@ makes everything one line-->
    <div>
      <h3 class=" aboutbody col-md-6" >I am pursuing a Bachelor's Degree in Electrical Engineering at Stevens Institute of Technology in Hoboken, NJ.
        I am currently working as a teaching assistant for the Girls Who Code Summer Immersion Program in Washington, DC. In this position, I work as a computer science instructor and collaborate with my team to
-       educate and inspire high school girls to pursue academics and careers in the STEM field.
+       educate and inspire high school girls to pursue academics and careers in the STEM.
 </h3>
 
 <h3 class=" aboutbody col-md-6">I am extremely passionate about resolving sustainability problems
@@ -68,9 +70,13 @@ makes everything one line-->
   development in remote areas around the world. I am also very interested in software involving
   machine learning and autonomous cars and drones, and I hope to contribute to discovering new
   uses for this type of technology.
+  <span>
 
-  <button type="button" class="btn btn1 btn-lg ">Linkedin</button>
-  <button type="button" class="btn btn2 btn-lg "  >Download Resume</button>
+  <input type="button" value="Linkedin" class="btn btn1 btn-lg " onclick="window.location.href='https://www.linkedin.com/in/rachaelkondrat/'" />
+  <form method="get" action="notes.pdf">
+   <button type="submit" class="btn btn2 btn-lg "  >Download Resume</button>
+</form>
+</span>
 
 </h3>
 
@@ -80,7 +86,7 @@ makes everything one line-->
 
      <!-- EDUCATION-->
 
- <div id="section2" class="container-fluid education">
+ <div id="section2" class="container-fluid education" >
     <h1 class="text-center">EDUCATION</h1>
    <div>
      <h3 class="text-center">Undergraduate GPA: 4.0/4.0</h3>
@@ -91,55 +97,66 @@ makes everything one line-->
 	<div>
      <h2 class="text-center">Stevens Institute of Technology</h2>
      <h3 class="text-center">Pursuing Bachelors in Electrical Engineering</h5>
-     <h3 class="text-center">Expected Graduation: May 2021</h6>
+     <h3 class="text-center">Expected Graduation: May 2022</h6>
     </div>
  </div>
 
      <!-- Computer languages-->
 <div id="section7" class="container-fluid computer">
 
-  <div class="container-fluid">
+  <div class="container-fluid ">
 
   	 <h1 class="text-center">Computer Languages</h1>
-  <p class="text-center"> HTML<p>
   </div>
-  <div class="progress">
-    <div class="progress-bar progress-bar-info" role="progressbar" aaria-valuenow="20" aria-valuemin="0" aria-valuemax="100"  style="width:100% ">
-      100% Proficency
+  <div class="col-md-6">
+    <p class="text-center"> HTML<p>
+
+  <div class="progress water">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aaria-valuenow="20" aria-valuemin="0" aria-valuemax="100"  style="width:80% ">
+      80% Proficency
     </div>
   </div>
 
    <p class="text-center"> CSS<p>
-  <div class="progress">
-    <div class="progress-bar progress-bar-info" role="progressbar" aaria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:100%">
-      100% Proficency
+  <div class="progress water">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aaria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+      80% Proficency
     </div>
   </div>
 
-
-
   <p class="text-center"> C++<p>
-  <div class="progress">
-    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+  <div class="progress water">
+    <div class="progress-bar progress-bar-warning water" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+      60% Proficency
+    </div>
+  </div>
+</div>
+
+<dic class="col-md-6">
+  <div>
+    <p class="text-center"> Java<p>
+  <div class="progress water">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aaria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">
       60% Proficency
     </div>
   </div>
 
-  <div>
-    <p class="text-center"> Java<p>
-  <div class="progress">
-    <div class="progress-bar progress-bar-info" role="progressbar" aaria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-      50% Proficency
+  </div>
+
+  <p class="text-center water"> C <p>
+  <div class="progress water">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aaria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+      80% 	Proficency
     </div>
   </div>
 
-  </div>
 
   <p class="text-center"> Python<p>
-  <div class="progress">
-    <div class="progress-bar progress-bar-info" role="progressbar" aaria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:30%">
-      30% 	Proficency
+  <div class="progress water">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aaria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      50% 	Proficency
     </div>
+  </div>
   </div>
 </div>
 </div>
